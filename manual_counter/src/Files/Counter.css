@@ -1,0 +1,112 @@
+body{
+    background: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.counter-container{
+    margin-top: -50px;
+    display: flex;
+    height: 400px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    width: 400px;
+    /* margin: auto; */
+    align-items: center;
+    background-color: lightblue;
+    box-shadow: 5px  5px  black;
+    
+}
+
+.Reset-btn{
+    text-align: center;
+    margin-top: 80px;
+    border:none;
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    color: green;
+    font-size: 25px;
+    background-color: yellow;
+    border-radius: 40%;
+    box-shadow: 4px  2px  black;
+    cursor:pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-up{
+    background-color: green;
+    width: 40%;
+    /* margin:0 auto; */
+    align-items: flex-start;
+    height: 20%;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 4px  2px  black;
+    outline: none;
+    border: none;
+    border-radius: 15%;
+}
+
+.numbers-inside{
+    color: #ffffff;
+    font-size:60px;
+    margin-top: 90px;
+}
+
+.btn-down{
+    color: white;
+    width: 40%;
+    height: 20%;
+    background-color: red;
+    align-items: flex-end;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 4px  2px  black;
+    outline: none;
+    border: none;
+    border-radius: 15%;
+}
+
+.counter-page{
+    padding-top: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box-display{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  
+    
+    height: 500px;
+    width: 400px;
+    background-color: lightblue;
+    
+   
+}
+
+/* Add these styles for the pressed effect */
+.btn-up.pressed {
+    transform: translateZ(50px);
+    box-shadow: none;
+}
+
+.btn-down.pressed {
+    transform: translateZ(10px);
+    box-shadow: none;
+}
+
+.Reset-btn:hover{
+    transform: translateZ(10px);
+    box-shadow: none;
+
+}
